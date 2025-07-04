@@ -5,13 +5,40 @@ body {
 img {
   width: 100px;
   height: 100px;
+	display:flex;
+	align-items: center;
+	flex-direction: row;
+	margin:8px;
+	padding:8px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+	display:flex;
+	justify-content: center;
 }
+.text{
+	text-wrap: wrap;
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+}
+.column-box{
+	display: flex;
+	flex-direction: column;
+	width:200px;
+	align-items: center;
+	padding:8px;
+	margin:8px;
+}
+.img-section{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding:32px 52px;
 
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
